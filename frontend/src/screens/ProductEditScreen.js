@@ -41,7 +41,7 @@ function ProductEditScreen() {
             dispatch({ type: PRODUCT_UPDATE_RESET })
             navigate('/admin/productlist')
         } else {
-            if(!product.username || product._id !== Number(productId)){
+            if(!product.name || product._id !== Number(productId)){
                 dispatch(listProductDetails(productId))
             }else {
                 setName(product.name)
