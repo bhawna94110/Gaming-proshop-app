@@ -28,11 +28,13 @@ function SearchBox() {
                 type='submit'
                 variant='outline-success'
                 className='p-2'
+                // className='mt-2'
                 // className="mb-2"
             >
                 Submit
             </Button>
         </Form>
+
     )
 }
 
